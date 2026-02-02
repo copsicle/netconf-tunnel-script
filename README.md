@@ -7,7 +7,7 @@ An automated script to configure ISAKMP IPsec tunnels on Cisco IOS-XE Devices vi
 ## Requirements
 
 * Python 3.7+
-* THe ncclient library
+* The ncclient library
 
 ## General Structure
 
