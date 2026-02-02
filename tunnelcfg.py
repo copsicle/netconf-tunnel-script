@@ -9,8 +9,9 @@ from secrets import token_urlsafe as secret
 
 import xmltemplates as xmlt
 
-def get_config_file(cfgfile="config.ini"):
+def get_config_file():
     argc = len(argv)
+    cfgfile = ""
     if argc > 1:
         if isfile(argv[1]):
             cfgfile = argv[1]
